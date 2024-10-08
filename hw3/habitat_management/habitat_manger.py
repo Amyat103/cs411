@@ -1,5 +1,6 @@
-from typing import List, Optional
+from typing import Any, List, Optional
 
+from hw3.animal_management.animal import Animal
 from hw3.habitat_management.habitat import Habitat
 
 
@@ -17,4 +18,22 @@ class HabitatManager:
         pass
 
     def remove_habitat(habitat_id: int) -> None:
+        pass
+
+    def get_habitat_details(habitat_id: int) -> dict:
+        pass
+
+    def get_habitats_by_geographic_area(geographic_area: str) -> List[Habitat]:
+        pass
+
+    def get_habitats_by_size(size: int) -> List[Habitat]:
+        pass
+
+    def get_habitats_by_type(environment_type: str) -> List[Habitat]:
+        pass
+
+    def assign_animals_to_habitat(habitat_id: int, animals: List[Animal]) -> None:
+        pass
+
+    def update_habitat_details(habitat_id: int, **kwargs: dict[str, Any]) -> None:
         pass
