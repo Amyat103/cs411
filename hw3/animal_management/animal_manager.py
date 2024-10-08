@@ -1,6 +1,7 @@
 from typing import Optional
 
-from wildlife_tracker.animal_managment.animal import Animal
+from hw3.animal_management.animal import Animal
+
 
 class AnimalManager:
 
